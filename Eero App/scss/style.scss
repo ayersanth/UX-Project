@@ -1,0 +1,135 @@
+@import "partials/utilities/variables";
+@import "partials/utilities/mixins";
+@import "partials/base/base";
+@import "partials/layout/grid";
+@import "partials/modules/buttons";
+@import "partials/modules/forms";
+@import "partials/modules/switches";
+
+
+
+
+//============= COMMON =============//
+
+
+
+#title {
+    padding-top: 80px;
+    color: $tColour;
+    font-size: 58px;
+    @include font;
+}
+
+#finger_signin {
+    padding-top: 145px;
+}
+
+#login {
+    font-size: 18px;
+    color: $tColour;
+    border: 2px solid $tColour;
+    padding: 5px 15px;
+    border-radius: 15px;
+    @include font;
+}
+
+.arrow {
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    top: 20px;
+}
+
+.icon_header {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    padding: 16px 0 5px 0;
+}
+
+.profile {
+    position: absolute;
+    float: right;
+    height: 46px;
+    right: 20px;
+    top: 16px;
+}
+
+.nav {
+    border-bottom: 5px solid $tColour;
+}
+
+h1, h2, h4, #version {
+    color: white;
+    font-size: 18px;
+    @include font;
+}
+
+h2 {
+    position: absolute;
+    left: 187px;
+    bottom: 230px;
+}
+
+.content {
+    background-color: white;
+    height: 290px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 5px solid $tColour; 
+}
+
+#profile_content {
+    height: 495px;
+    overflow: hidden;
+}
+
+#profile_content_gap {
+    margin-top: 40px;
+}
+
+#finger {
+    padding: 20px 0;
+}
+
+#sync {
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    @include font;
+}
+
+#sync_img {
+    padding-top: 20px;
+}
+
+
+//============= end =============//
+
+
+//============= INDEX =============//
+
+
+.icon img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    padding: 62px 5px 62px 9px;
+}
+
+.left {
+    float: left;
+    padding-right: 10px;
+    padding-top: 86%;
+}
+
+.right {
+    float: right;
+    padding-left: 10px;
+    padding-top: 86%;
+}
+
+
+//============= end =============//
+
